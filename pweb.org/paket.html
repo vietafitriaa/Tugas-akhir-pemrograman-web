@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Pemrograman Web</title>
+	<!-- Menyisipkan kode css eksternal -->
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<!-- Menyisipkan kode js eksternal --> <!--Maka, apapun yang ada di dalam file kode-program.js akan dapat dibaca dari file index.html-->
+	<script language="javascript" src="java/javascript.js"></script> <!--ni adalah penulisan kode javascript di dalam tag head-->
+</head>
+<body>
+
+<div class="header"> <!--Class dapat digunakan untuk mengatur tampilan atau atribut dari suatu kelompok data HTML-->
+	<br><br><br>
+	<center>
+	<font color="teal" style="font-family: monospace; font-size: 50px"><marquee>WELCOME TO MY WEBSITE ^_^</marquee></font></center>
+</div>
+	<div class="menubar">
+		<ul>
+			<li><a href="vieta fitria.html"><b>BIODATA</b></a></li>
+			<li><a href="materi.html"><b>MATERI KULIAH</a></b></li>
+			<li><a href="pencarian.html"><b>PENCARIAN</b></a></li>
+			<li><a href="kalkulator.html"><b>KALKULATOR</b></a></li>
+			<li><a href="paket.html"><b>PAKET</b></a></li>
+			<li><a href="form.php"><b>FORM</b></a></li>
+			
+		</ul>
+</div>	
+<div class="yaela">
+<form NAME ="fform"> <!--Element FORM berfungsi untuk mendefinisikan form interaktif-->
+<table border="1" align="center"width="70%">
+	<tr><br><br>
+		<td width="100%" colspan="2"><h2 ALIGN="center">Jasa Kiriman Paket</h2></td>
+	</tr>
+	<tr>
+		<td width="50%">
+			Nama :<input type="text" size="20" name="inama"><br>
+			Tujuan :<select name="itujuan" size=1>
+				<option value="Jakarta">Jakarta</option>
+				<option value="Yogyakarta">Yogyakarta</option>
+				<option value="Semarang">Semarang</option>
+			</select>
+	
+		<br>Jumlah Tiket :<input type="text" size="11" name="ijumlah">
+		<br>Member :<input type="checkbox" name="imember">Ya</td>
+	
+			<td width="50%">
+			Harga Tiket :<input type="text" size="10" name="otiket"><br>
+			Sub Total :<input type="text" size="10" name="osub"><br>
+			Diskon :<input type="text" size="10" name="odiskon"><br>
+			Total Bayar :<input type="text" size="10" name="ototal"></td>
+	</tr>
+<tr>
+	<td width="100%" colspan="2">
+	<center>
+	<input type="button" value="Hitung" onclick="hitungtotal()">
+	<input type="reset" value="Ulang">
+	<!--Elemen Input berfungsi untuk mendefinisikan input yang akan dimasukkan
+pengguna. Type pada elemen input mendefinisikan bentuk-bentuk input kontrol,
+value mendefinisikan nilai awal/reset/submit, checked mendefinisikan pilihan
+terpilih pada type radio/checkbox-->
+	</center></td>
+</tr>
+</table>
+</form>
+</div>
+<div class="footer">
+	<br>
+		<font color="blue"><b>&copy</b></font>&nbsp Vieta Fitria - Universitas Ahmad Dahlan - Yogyakarta - <font color="blue"><b>2019</b></font>
+</div>
+
+</body>
+</html>

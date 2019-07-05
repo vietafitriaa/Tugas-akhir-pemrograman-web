@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Pemrograman Web</title>
+	<!-- Menyisipkan kode css eksternal -->
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<!-- Menyisipkan kode js eksternal --> <!--Maka, apapun yang ada di dalam file kode-program.js akan dapat dibaca dari file index.html-->
+	<script language="javascript" src="java/javascript.js"></script> <!--ni adalah penulisan kode javascript di dalam tag head-->
+	 
+</head>
+<body>
+
+<div class="header"> <!--Class dapat digunakan untuk mengatur tampilan atau atribut dari suatu kelompok data HTML-->
+	<br><br><br>
+	<center>
+	<font color="teal" style="font-family: monospace; font-size: 50px"><marquee>WELCOME TO MY WEBSITE ^_^</marquee></font></center>
+</div>
+	<div class="menubar">
+		<ul>
+			<li><a href="vieta fitria.html"><b>BIODATA</b></a></li>
+			<li><a href="materi.html"><b>MATERI KULIAH</a></b></li>
+			<li><a href="pencarian.html"><b>PENCARIAN</b></a></li>
+			<li><a href="kalkulator.html"><b>KALKULATOR</b></a></li>
+			<li><a href="paket.html"><b>PAKET</b></a></li>
+			<li><a href="form.php"><b>FORM</b></a></li>
+			
+		</ul>
+</div>	
+<div class="yaela">
+	<form name="vieta"> <!--Element FORM berfungsi untuk mendefinisikan form interaktif-->
+	<h2>Silahkan masukkan angka :</h2>
+	 <br><br>
+	 <h3>Bilangan pertama :</h3>
+	 <input type="number" name="bilangan1"><br><br>
+	 <h3>Bilangan kedua :</h3>
+	<input type="number" name="bilangan2"><br><br>
+	<input type="button" value="jumlahkan" onclick="jumlah()">
+	<input type="button" value="kurangan" onclick="kurang()">
+	<input type="button" value="kalikan" onclick="kali()">
+	<input type="button" value="bagikan" onclick="bagi()">
+	<input type="button" value="pangkatkan" onclick="pangkat()">
+	<input type="reset" value="reset">
+	<!--Elemen Input berfungsi untuk mendefinisikan input yang akan dimasukkan
+pengguna. Type pada elemen input mendefinisikan bentuk-bentuk input kontrol,
+value mendefinisikan nilai awal/reset/submit, checked mendefinisikan pilihan
+terpilih pada type radio/checkbox-->
+	</form>
+</div>
+<div class="footer">
+	<br>
+		<font color="blue"><b>&copy</b></font>&nbsp Vieta Fitria - Universitas Ahmad Dahlan - Yogyakarta - <font color="blue"><b>2019</b></font>
+</div>
+
+</body>
+</html>
